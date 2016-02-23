@@ -146,7 +146,7 @@ The is a basic module.mk in the ofxPluma folder and You have to integrate it in 
 
 ## TODO
 
-- better (and working :(\ ) makefile integration for external plugin compilation.
+- better (and working :( \ ) makefile integration for external plugin compilation.
 - setting up a manifest and an archive system for easier plugin integration in apps.
 - A lot of other stuffs......
 
