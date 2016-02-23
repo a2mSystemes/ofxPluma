@@ -16,7 +16,7 @@ No deps for now.
 /*
 /*file MyCoolModuleInterface.h
 /*
-/*********************************************
+/*********************************************/
 
 
 #ifndef MYCOOLMODULEINTERFACE_H_
@@ -41,7 +41,7 @@ PLUMA_PROVIDER_HEADER(MyCoolModuleInterface);
 /*
 /*file MyCoolModuleInterface.cpp
 /*
-/*********************************************
+/*********************************************/
 
 
 #include "MyCoolModuleInterface.h"
@@ -58,7 +58,7 @@ PLUMA_PROVIDER_SOURCE(MyCoolModuleInterface, 1, 1);
 /*
 /*file MyCoolModule.h 
 /*
-/*********************************************
+/*********************************************/
 
 
 #ifndef MYCOOLMODULE_H_
@@ -83,7 +83,7 @@ PLUMA_INHERIT_PROVIDER (MyCoolModule, MyCoolModuleInterface);
 /*
 /*file ofApp.h 
 /*
-/*********************************************
+/*********************************************/
 #pragma once
 
 
@@ -110,7 +110,7 @@ class ofApp : public ofBaseApp{
 /*
 /*file ofApp.cpp 
 /*
-/*********************************************
+/*********************************************/
 #include "ofApp.h"
 /* Core modules include */
 #include "MyCoolModule.h"
